@@ -1,0 +1,112 @@
+/* CORE HTML  */
+
+html {
+    min-height: 100%;
+    padding: 0 auto;
+    margin: 0 auto;
+    color: black;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    
+}
+
+/* HELPER CLASSES  */
+
+.container {
+    background-color: whitesmoke;
+    min-width: 100%;
+    padding-right: 1.3rem;
+}
+
+/* BUTTONS  */
+
+.btn-standard {
+    background-color: #d9b99b;
+    height: 2.8rem;
+    width: 6rem;
+    padding: auto;
+}
+
+.btn-standard:hover,
+.btn-standard:focus,
+.btn-standard:active {
+    background-color: #607274;
+    color: white !important;
+}
+
+.btn-row {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+/* HOME PAGE  */
+
+.header-container {
+    padding-top: 0.7rem;
+    background-color: whitesmoke;
+}
+
+.main-title {
+    font-size: 2.8rem;
+}
+
+.main-title a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link {
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+.navbar {
+    margin-top: -1.4rem;
+}
+
+.main-container {
+    height: 18rem;
+}
+
+.second-title {
+ height: 3rem;
+ font-size: 1.8rem;
+ 
+}
+
+.highlight-container {
+    height: 18rem;
+}
+
+.post-container {
+    height: 18rem;
+    width: 16rem;
+    
+    background-color: aquamarine;
+}
+
+.second-container {
+ height: 22rem;
+ padding-top: 2rem;
+ padding-bottom: 2rem;
+}
+
+.main-img-container {
+    background-color: aqua;
+    margin-top: 1rem;
+    height: 90%;
+    width: 60%;
+    margin-left: 30%;
+}
+
+.post-title {
+    padding-top: 1rem;
+    font-size: 1.8rem;
+}
+
+.post-txt {
+    padding-top: 1.3rem;
+    padding-bottom: 2rem;
+    text-wrap: balance;
+}
