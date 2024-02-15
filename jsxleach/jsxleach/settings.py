@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     # CUSTOM
 
     'home',
+    'support',
 ]
 
 MIDDLEWARE = [

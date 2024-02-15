@@ -24,6 +24,7 @@ from .views import handler404, handler500
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('home.urls')),
+    path('support/', include('support.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 handler404 = 'jsxleach.views.handler404'
