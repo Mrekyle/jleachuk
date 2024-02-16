@@ -21,16 +21,17 @@ html {
 /* BUTTONS  */
 
 .btn-standard {
-    background-color: #d9b99b;
+    background-color: #e8c6a7;
     height: 2.8rem;
     width: 6rem;
     padding: auto;
+    color: black;
 }
 
 .btn-standard:hover,
 .btn-standard:focus,
 .btn-standard:active {
-    background-color: #607274;
+    background-color: rgb(179, 147, 116);
     color: white !important;
 }
 
